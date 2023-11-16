@@ -8,3 +8,11 @@ Add 4 test cases to the end of the file, with comments
 Ensure your lab runs accurately
 
 """
+def find_sum(num1,num2):
+    num_sum = num1 + num2
+    return num_sum
+    
+print(find_sum(111,222) == 333)
+print(find_sum(1,2) == 3)
+print(find_sum(1.5,1.5) == 3)
+print(find_sum(2763,2763) == 5526)
