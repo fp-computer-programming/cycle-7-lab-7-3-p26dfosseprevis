@@ -9,6 +9,7 @@ Ensure your lab runs accurately
 
 """
 def find_sum(num1,num2):
+    """Finds the sum of the two inputed numbers"""
     num_sum = num1 + num2
     return num_sum
     
